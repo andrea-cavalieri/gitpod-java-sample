@@ -1,9 +1,7 @@
 tasks:
-  - before: npm install -g generator-jhipster
-  - init: |
-      echo 'TODO: build project'
+  - before: echo 'npm install -g generator-jhipster'
     command: |
-      echo 'TODO: start app'
+      npm install -g generator-jhipster
 
 vscode:
   extensions:
