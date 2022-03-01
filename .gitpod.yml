@@ -1,4 +1,5 @@
 tasks:
+  - before: npm install -g generator-jhipster
   - init: |
       echo 'TODO: build project'
     command: |
