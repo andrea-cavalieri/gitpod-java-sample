@@ -1,12 +1,8 @@
-
 tasks:
-- init: ./mvnw package -DskipTests
-  command: java -jar target/*.jar
-
-# exposed ports
-ports:
-- port: 8080
-  onOpen: open-preview
+  - init: |
+      echo 'TODO: build project'
+    command: |
+      echo 'TODO: start app'
 
 vscode:
   extensions:
